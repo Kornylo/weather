@@ -100,7 +100,7 @@ $(function() {
    $('.img_now_noon').html('<img src="images/'+data.list[1].weather[0].icon+'.png">'); 
    $('.img_now_afternoon').html ('<img src="images/'+data.list[2].weather[0].icon+'.png">'); 
    $('.img_now_evening').html('<img src="images/'+data.list[3].weather[0].icon+'.png">'); 
-   $('.img_now_nights').html('<img src="images/'+data.list[8].weather[0].icon+'.png">'); 
+   $('.img_now_nights').html('<img src="images/'+data.list[5].weather[0].icon+'.png">'); 
    $('.noon').html(Math.round(data.list[1].temp.day )+"°C");
    $('.afternoon').html(Math.round(data.list[2].temp.day )+"°C");
    $('.evening').html(Math.round(data.list[3].temp.day )+"°C");
